@@ -67,8 +67,29 @@ Exercises
       
          Write code that transforms the list ``[3, 6, 9]`` into the list ``[3, 0, 9]`` and then prints it out
    
-      .. actex:: ex_3_3
+         .. actex:: ex_3_3
 
-         w = [3, 6, 9]
-         # add code that changes w
+           w = [3, 6, 9]
+           # add code that changes w
          
+
+#.
+   .. tabbed:: q5
+
+      .. tab:: Question
+      
+         Write code that adds the next two consecutive numbers to the list "[0, 1, 2, 3]" and then prints it out
+         
+      .. actex:: ex_3_4
+      
+         x = [0, 1, 2, 3]
+         #add code that changes x
+         
+      .. tab:: Answer
+      
+         .. activecode:: q5_answer
+         
+            x = [0, 1, 2, 3]
+            x.append(4)
+            x.append(5)
+            print x
